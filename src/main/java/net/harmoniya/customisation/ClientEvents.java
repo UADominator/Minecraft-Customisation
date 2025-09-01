@@ -1,7 +1,7 @@
 package net.harmoniya.customisation;
 
-import net.harmoniya.customisation.models.BaseArmorLayer;
-import net.harmoniya.customisation.models.NakidkaLayerModel;
+import net.harmoniya.customisation.render.layers.BaseArmorLayer;
+import net.harmoniya.customisation.render.model.models.NakidkaLayerModel;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;

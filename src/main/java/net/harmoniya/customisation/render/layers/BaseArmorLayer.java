@@ -1,8 +1,10 @@
-package net.harmoniya.customisation.models;
+package net.harmoniya.customisation.render.layers;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.harmoniya.customisation.Customisation;
+import net.harmoniya.customisation.render.model.AbstractBaseLayerModel;
+import net.harmoniya.customisation.render.model.models.NakidkaLayerModel;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.EntityModelSet;

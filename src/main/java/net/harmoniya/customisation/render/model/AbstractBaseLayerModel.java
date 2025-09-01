@@ -1,4 +1,4 @@
-package net.harmoniya.customisation.models;
+package net.harmoniya.customisation.render.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;

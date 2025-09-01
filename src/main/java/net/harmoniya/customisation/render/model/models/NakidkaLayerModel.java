@@ -1,6 +1,7 @@
-package net.harmoniya.customisation.models;
+package net.harmoniya.customisation.render.model.models;
 
 import net.harmoniya.customisation.Customisation;
+import net.harmoniya.customisation.render.model.AbstractBaseLayerModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
