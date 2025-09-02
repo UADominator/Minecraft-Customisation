@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee273d3-41e4-48fb-be91-222ada232944" name="Changes" comment="add git ignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/mixin/AnimationDefinitionAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/PetLayerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/customisation/textures/entity/pet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/ClientEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/ClientEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/layers/BaseArmorLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/layers/BaseArmorLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Export/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/models/Export/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Export/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/Export/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Export/PetAnim.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/Export/PetAnim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Pet.bbmodel" beforeDir="false" afterPath="$PROJECT_DIR$/models/Pet.bbmodel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/AbstractBaseLayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/AbstractBaseLayerModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/NakidkaLayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/NakidkaLayerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/customisation.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/customisation.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/PetLayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/PetLayerModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,11 @@
                 <item name="1-20-1-domi-customisation" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1-20-1-domi-customisation" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -163,19 +168,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="1-20-1-domi-customisation" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="1-20-1-domi-customisation" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <recent_temporary>
       <list>
