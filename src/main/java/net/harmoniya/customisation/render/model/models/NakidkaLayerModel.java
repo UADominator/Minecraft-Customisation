@@ -40,4 +40,9 @@ public class NakidkaLayerModel extends AbstractBaseLayerModel<LivingEntity> {
 
 		return LayerDefinition.create(meshdefinition, 64, 64);
 	}
+
+	@Override
+	public ModelPart root() {
+		return null;
+	}
 }

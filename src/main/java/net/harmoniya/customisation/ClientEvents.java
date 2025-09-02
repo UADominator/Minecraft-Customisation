@@ -2,6 +2,7 @@ package net.harmoniya.customisation;
 
 import net.harmoniya.customisation.render.layers.BaseArmorLayer;
 import net.harmoniya.customisation.render.model.models.NakidkaLayerModel;
+import net.harmoniya.customisation.render.model.models.PetLayerModel;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
@@ -15,6 +16,7 @@ public class ClientEvents {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(NakidkaLayerModel.LAYER_LOCATION, NakidkaLayerModel::createBodyLayer);
+		event.registerLayerDefinition(PetLayerModel.LAYER_LOCATION, PetLayerModel::createBodyLayer);
 	}
 
 	@SubscribeEvent

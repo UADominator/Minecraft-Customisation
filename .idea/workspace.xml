@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ee273d3-41e4-48fb-be91-222ada232944" name="Changes" comment="add git ignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/mixin/AnimationDefinitionAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/PetLayerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/customisation/textures/entity/pet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/ClientEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/ClientEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/layers/BaseArmorLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/layers/BaseArmorLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/AbstractBaseLayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/AbstractBaseLayerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/NakidkaLayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/harmoniya/customisation/render/model/models/NakidkaLayerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/customisation.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/customisation.mixins.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1-20-1-domi-customisation" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1-20-1-domi-customisation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1-20-1-domi-customisation" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UADominator&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:UADominator/Minecraft-Customisation.git&quot;,
+    &quot;accountId&quot;: &quot;2242da70-682e-4884-9a51-839d9ba56617&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="326uBKGyz1T3n09SkFhjjjz6VNc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.1.20.1-domi-customisation [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20.1-domi-customisation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20.1-domi-customisation [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20.1-domi-customisation [wrapper genIntellijRuns].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Mods/1.20.1-domi-customisation/src/main/resources/assets/customisation/textures/entity&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.saveactions&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Mods\1.20.1-domi-customisation\src\main\resources\assets\customisation\textures\entity" />
+      <recent name="F:\Mods\1.20.1-domi-customisation\src\main\java\net\harmoniya\customisation\render\model\models" />
+      <recent name="F:\Mods\1.20.1-domi-customisation\src\main\java\net\harmoniya\customisation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Mods\1.20.1-domi-customisation" />
+      <recent name="F:\Mods\1.20.1-domi-customisation\src\main\resources\assets\customisation\textures\model" />
+      <recent name="F:\Mods\1.20.1-domi-customisation\src\main\java\net\harmoniya\customisation" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="AnimationDefinition" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.1.20.1-domi-customisation [build]">
+    <configuration name="1.20.1-domi-customisation [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="1.20.1-domi-customisation [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="1-20-1-domi-customisation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="1-20-1-domi-customisation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.1.20.1-domi-customisation [build]" />
+        <item itemvalue="Gradle.1.20.1-domi-customisation [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee273d3-41e4-48fb-be91-222ada232944" name="Changes" comment="" />
+      <created>1756753207524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756753207524</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1756758551366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756758551366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1756758860713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756758860713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add read me">
+      <option name="closed" value="true" />
+      <created>1756759013271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759013271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove shit">
+      <option name="closed" value="true" />
+      <created>1756759151184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759151184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add git ignore">
+      <option name="closed" value="true" />
+      <created>1756759188811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759188811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add read me" />
+    <MESSAGE value="remove shit" />
+    <MESSAGE value="add git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
+  </component>
+</project>

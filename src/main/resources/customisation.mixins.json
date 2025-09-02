@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "customisation.refmap.json",
   "mixins": [
+    "AnimationDefinitionAccessor"
   ],
   "client": [
   ],

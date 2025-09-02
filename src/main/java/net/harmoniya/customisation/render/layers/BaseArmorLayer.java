@@ -5,6 +5,7 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.harmoniya.customisation.Customisation;
 import net.harmoniya.customisation.render.model.AbstractBaseLayerModel;
 import net.harmoniya.customisation.render.model.models.NakidkaLayerModel;
+import net.harmoniya.customisation.render.model.models.PetLayerModel;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.EntityModelSet;
@@ -22,10 +23,12 @@ import net.minecraft.world.item.ItemStack;
 
 public class BaseArmorLayer<T extends LivingEntity, M extends EntityModel<T>> extends RenderLayer<T, M> {
 	private final NakidkaLayerModel nakidkaModel;
+	private final PetLayerModel pet;
 
 	public BaseArmorLayer(RenderLayerParent<T, M> renderer, EntityModelSet modelSet) {
 		super(renderer);
 		this.nakidkaModel = new NakidkaLayerModel(modelSet.bakeLayer(NakidkaLayerModel.LAYER_LOCATION));
+		this.pet = new PetLayerModel(modelSet.bakeLayer(PetLayerModel.LAYER_LOCATION));
 	}
 
 	@Override
@@ -47,11 +50,10 @@ public class BaseArmorLayer<T extends LivingEntity, M extends EntityModel<T>> ex
 				model = this.nakidkaModel;
 				texture = new ResourceLocation(Customisation.MODID, "textures/entity/nakidka.png");
 				break;
-			// EXAMPLE
-//			case "dildo":
-//				model = this.dildoModel;
-//				texture = new ResourceLocation(Customisation.MODID, "textures/entity/dildo.png");
-//				break;
+			case "pet":
+				model = this.pet;
+				texture = new ResourceLocation(Customisation.MODID, "textures/entity/pet.png");
+				break;
 			default:
 				return;
 		}
@@ -61,6 +63,15 @@ public class BaseArmorLayer<T extends LivingEntity, M extends EntityModel<T>> ex
 		}
 
 		VertexConsumer vertexConsumer = buffer.getBuffer(RenderType.entityCutoutNoCull(texture));
+
+		model.setupAnim(
+				entity,
+				limbSwing,
+				limbSwingAmount,
+				ageInTicks,
+				netHeadYaw,
+				headPitch
+		);
 
 		model.renderToBuffer(
 				poseStack,
